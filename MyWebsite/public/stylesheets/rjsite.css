@@ -1,0 +1,123 @@
+body {
+	background-color: #FFFFFF;
+	color: #A6A6A6;
+	font-family: Verdana;
+}
+
+h1 {
+	color: #99FFFF;
+	font-size: 2.7em;
+	line-height: 0.1em; 
+}
+
+h1+h1 {
+	color: #99FF99;
+	font-size: 2.0em;
+	line-height: 0.1em; 
+}
+
+h2 {
+	color: #A6A6A6;
+	font-size: 1.2em;
+	line-height: 0.0em; 
+}
+
+h2+p {
+	line-height: 0.0em; 
+}
+
+p+p {
+	line-height: 0.0em; 
+}
+
+h1+hr {
+	width: 300px;
+	color: #A6A6A6;
+	line-height: 0.0em;
+}
+
+hr {
+	width: 700px;
+	color: #A6A6A6;
+	line-height: 0.0em;
+}
+
+tr, td {
+	padding: 0 0em;
+}
+
+a:link {
+	color: #848484;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #848484;
+	text-decoration: none;
+}
+
+a:active {
+	color: #848484;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #848484;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.fb {
+	display: inline-block;
+	width: 62px;
+	height: 65px;
+	background: url('../images/fb.png') bottom;
+}
+
+.fb:hover {
+	background: url('../images/fbHover.png') bottom;
+}
+
+.li {
+	display: inline-block;
+	width: 101px;
+	height: 65px;	
+	background: url('../images/li.png') bottom;
+}
+
+.li:hover {
+	background: url('../images/liHover.png') bottom;
+}
+
+.tw {
+	display: inline-block;
+	width: 110px;
+	height: 65px;
+	background: url('../images/tw.png') bottom;
+}
+
+.tw:hover {
+	background: url('../images/twHover.png') bottom;
+}
+
+.da {
+	display: inline-block;
+	width: 128px;
+	height: 65px;
+	background: url('../images/da.png') bottom;
+}
+
+.da:hover {
+	background: url('../images/daHover.png') bottom;
+}
+
+.tu {
+	display: inline-block;
+	width: 62px;
+	height: 65px;
+	background: url('../images/tu.png') bottom;
+}
+
+.tu:hover {
+	background: url('../images/tuHover.png') bottom;
+}
