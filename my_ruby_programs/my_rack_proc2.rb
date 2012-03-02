@@ -1,6 +1,5 @@
 # my_rack_proc2.rb
 require 'rack'
-Rack::Handler::WEBrick
 
 my_rack_proc2 = lambda do |env|
   [200, {"Content-Type" => "text/plain"},
